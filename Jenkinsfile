@@ -8,7 +8,7 @@ pipeline
 	{
 		timestamps()
 	}
-	agent none
+	agent {label 'docker'}
 	stages
 	{
 		stage('Check scm')
